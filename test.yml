@@ -1,0 +1,9 @@
+---
+- hosts: localhost
+  tasks:
+    - name: test stan playbook module_utils with a custom module
+      stan_module:
+
+    - name: test stan playbook level module_utils with a custom lookup
+      debug:
+        msg="{{ lookup('stan') }} OH SO PRETTY AND GAY!"

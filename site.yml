@@ -1,6 +1,0 @@
----
-- hosts: localhost
-  tasks:
-    - stan:
-    - debug:
-        msg="Please help me {{ lookup('stan') }}"
